@@ -1,5 +1,5 @@
-"# MovieMind – AI Driven Movie Discovery Platform" 
-🎬 MovieMind – AI Driven Movie Discovery Platform
+
+# 🎬 MovieMind – AI Driven Movie Discovery Platform
 MovieMind – AI Driven Movie Discovery Platform is an intelligent movie recommendation system designed to help users discover movies based on their interests. The system uses content-based filtering techniques such as TF-IDF text similarity and genre-based recommendations to provide accurate and personalized movie suggestions.
 
 The platform integrates real-time movie data from the TMDB API, allowing users to search for movies, view detailed information (such as overview, genres, and posters), and receive recommendations for similar movies. The backend is built using FastAPI to ensure fast and scalable API responses, while the frontend is developed using Streamlit to provide an interactive and user-friendly interface.
