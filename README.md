@@ -5,40 +5,27 @@ MovieMind – AI Driven Movie Discovery Platform is an intelligent movie recomme
 The platform integrates real-time movie data from the TMDB API, allowing users to search for movies, view detailed information (such as overview, genres, and posters), and receive recommendations for similar movies. The backend is built using FastAPI to ensure fast and scalable API responses, while the frontend is developed using Streamlit to provide an interactive and user-friendly interface.
 
 MovieMind demonstrates the practical application of machine learning, API integration, and full-stack development, making it suitable for academic projects, portfolios, and real-world deployment.
-🚀 Live Demo
 
-Frontend (Streamlit):
+# 🚀 Live Demo
+ (Streamlit):
 👉 https://moviemind0.streamlit.app
 
-Backend (FastAPI on Render):
-👉 https://movie-recommendation-s49e.onrender.com
-
-🧠 Features
+# 🧠 Features
 
 🔍 Movie search with autocomplete (TMDB)
-
 🎯 Content-based recommendations using TF-IDF
-
 🎭 Genre-based movie suggestions
-
 📄 Detailed movie information (overview, genres, posters)
-
 ⚡ FastAPI backend with clean REST APIs
-
 🎨 Interactive Streamlit UI
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Frontend: Streamlit
-
 Backend: FastAPI
-
 Machine Learning: TF-IDF, Scikit-learn
-
 Data: TMDB API
-
 Deployment: Streamlit Cloud & Render
-
 Language: Python 3.10
 
 📂 Project Structure
@@ -67,26 +54,8 @@ conda activate moviemind
 pip install -r requirements.txt
 
 4️⃣ Setup Environment Variables
-
 Create a .env file:
-
 TMDB_API_KEY=your_tmdb_api_key_here
-
-5️⃣ Run Backend (FastAPI)
-uvicorn main:app --reload
-
-
-Backend will start at:
-
-http://127.0.0.1:8000
-
-6️⃣ Run Frontend (Streamlit)
-streamlit run app.py
-
-
-Frontend will open at:
-
-http://localhost:8501
 
 🌐 Deployment Notes
 Streamlit Cloud
@@ -106,20 +75,15 @@ Handles TMDB API securely
 🔐 Environment Variables
 Variable	Description
 TMDB_API_KEY	TMDB API key
-📌 Future Improvements
 
+# 📌 Future Improvements
 🔐 User authentication
-
 🤖 Collaborative filtering
-
 📊 User preference learning
-
 🎞️ Trailer integration
 
-👨‍💻 Author
-
-Surya
-GitHub: https://github.com/surya323-ma
+👨‍💻 Author-Surya 
+# GitHub: https://github.com/surya323-ma
 
 ⭐ If you like this project
 
